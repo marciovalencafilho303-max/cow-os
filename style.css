@@ -1,0 +1,124 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #292929;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    min-height: 100vh; 
+    height: auto;  
+    margin: 0;
+    padding: 50px 20px; 
+}
+h1 {
+    color: beige;
+    font-size: 120px; 
+    margin-top: 0;   
+    margin-bottom: 20px;
+    text-align: center;
+}
+.banner {
+    color: beige;
+    font-size: 15px;
+    margin-bottom: auto; 
+}
+
+.vaca {
+    color: beige;
+    font-size: 20px;
+    margin-bottom: auto; 
+}
+
+h3 {
+    color: beige;
+    font-size: 50px;
+    align-self: flex-start;
+    margin-right: auto;
+    margin-left: 25px;
+    margin-top: 0px;
+}
+
+p {
+    color: beige;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-right: auto;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+h4 {
+    color: beige;
+    font-size: 50px;
+    align-self: flex-start;
+    margin-right: auto;
+    margin-left: 25px;
+    margin-top: 1px ;
+}
+h5 {
+    color: beige;
+    font-size: 50px;
+    align-self: flex-start;
+    margin-right: auto;
+    margin-left: 25px;
+    margin-top: 0px ;
+
+}
+
+h6 {
+    color: beige;
+    font-size: 50px;
+    align-self: flex-start;
+    margin-right: auto;
+    margin-left: 25px;
+    margin-top: 0px ;
+
+}
+button {
+    padding: 30px 30px;
+    font-size: 20px;
+    font-weight: 100;
+    background-color: beige;
+    color: #292929;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.galeria img {
+    width: 300px;           
+    height: 200px;          
+    object-fit: cover;    
+    object-position: top;  
+    
+    border: 2px solid beige;
+    background-color: #333; 
+    display: inline-block;
+}
+
+
+.galeria img:before { 
+    content: "IMAGEM NÃO ENCONTRADA";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: red;
+    font-size: 10px;
+}
+
+.galeria img {
+    width: 350px; 
+    height: 250px;
+    
+    object-fit: cover; 
+    
+    border: 2px solid beige;
+    image-rendering: pixelated;
+}
+
+button:hover {
+    background-color: rgb(184, 184, 163);
+}
